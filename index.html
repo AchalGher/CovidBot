@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<title>CovidBot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.-tag, .fa {cursor:pointer}
+.-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="-top">
+    <div class="-row -large -light-grey">
+      <div class="-col s3">
+        <a href="#" class="-button -block">HOME</a>
+      </div>
+      <div class="-col s3">
+        <a href="#plans" class="-button -block">STEPS</a>
+      </div>
+      
+      <div class="-col s3">
+        <a href="#contact" class="-button -block">BOT</a>
+      </div>
+      
+    </div>
+  </div>
+  
+  <!-- Content -->
+  <div class="-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+  
+    <div class="-panel">
+      <h1><b>COVIDBOT</b></h1>
+     
+    </div>
+  
+    <!-- Slideshow -->
+    <div class="-container">
+      <div class="-display-container mySlides">
+        <img src="\Users\hp\OneDrive\Pictures\c1.jpg" style="width:100%">
+        <div class="-display-topleft -container -padding-32">
+          <span class="-white -padding-large -animate-bottom">Get vaccinated</span>
+        </div>
+      </div>
+      <div class="-display-container mySlides">
+        <img src="\Users\hp\OneDrive\Pictures\Camera Roll\Covid_Symptoms.jpg" style="width:100%">
+        <div class="-display-middle -container -padding-32">
+          <span class="-white -padding-large -animate-bottom">Covid Symptoms</span>
+        </div>
+      </div>
+      <div class="-display-container mySlides">
+        <img src="\Users\hp\OneDrive\Pictures\stay.png" style="width:100%">
+        <div class="-display-topright -container -padding-32">
+          <span class="-white -padding-large -animate-bottom">Stay Safe</span>
+        </div>
+      </div>
+  
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="-container -dark-grey -padding -xlarge">
+      <div class="-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left -hover-text-teal"></i></div>
+      <div class="-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right -hover-text-teal"></i></div>
+    
+      <div class="-center">
+        <span class="-tag demodots -border -transparent -hover-white" onclick="currentDiv(1)"></span>
+        <span class="-tag demodots -border -transparent -hover-white" onclick="currentDiv(2)"></span>
+        <span class="-tag demodots -border -transparent -hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <!-- Grid -->
+  <div class="-row-padding" id="plans">
+    <div class="-center -padding-64">
+      <h3>Get Vaccinated in 3 Easy Steps</h3>
+      
+    </div>
+
+    <div class="-third -margin-bottom">
+      
+      <div class="-ul -border -center -hover-shadow">
+        <li class="-dark-grey -xlarge -padding-32">Step 1</li>
+        <img src="\Users\hp\OneDrive\Pictures\step1.png">
+      </div>
+    </div>
+
+    <div class="-third -margin-bottom">
+      <div class="-ul -border -center -hover-shadow">
+        <li class="-dark-grey -xlarge -padding-32">Step 2</li>
+        <img src="\Users\hp\OneDrive\Pictures\step2.png">
+      </div>
+    </div>
+
+    <div class="-third -margin-bottom">
+      <div class="-ul -border -center -hover-shadow">
+        <li class="-dark-grey -xlarge -padding-32">Step 3</li>
+        <img src="\Users\hp\OneDrive\Pictures\step3.png">
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!---covidBot-->
+  <div class="-center -padding-64" id="contact">
+    <span class="-xlarge -bottombar -border-dark-grey -padding-16">COVID BOT</span>
+  </div>
+  <div style="margin-top: 50px;">
+    <iframe src='https://webchat.botframework.com/embed/qnaphysics-bot?s=SxtHIXMRM3M.JH0F9v1lAXu2EtHNU-Qw9Yw99NCo7eJCfgsq2_JnhNM'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+
+  </div>
+  
+
+<!-- Footer -->
+
+<footer class="-container -padding-32 -light-grey -center">
+  <h4>Footer</h4>
+  <a href="#" class="-button -black -margin"><i class="fa fa-arrow-up -margin-right"></i>To the top</a>
+  
+  <p>Get Vaccination Information From <a href="https://www.cowin.gov.in/" title="CoWIN" target="_blank" class="-hover-text-green">CoWIN</a></p>
+  <p>Stay Updated from <a href="https://www.mohfw.gov.in/" title="gov" target="_blank" class="-hover-text-green">MoHFW</a></p>
+</footer>
+
+
+<script src="main.js">
+</script>
+
+</body>
+</html>
+
